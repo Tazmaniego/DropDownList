@@ -1,7 +1,7 @@
 import DropdownListPage from "../pageobjects/dropdown_list.page.js";
 
 describe('My DropdownList Page', () => {
-    it('should select input', async () => {
+    it('should dropdown list and select both options', async () => {
         await DropdownListPage.open();
         await browser.pause(3000);
         await (DropdownListPage).DropList.click();
