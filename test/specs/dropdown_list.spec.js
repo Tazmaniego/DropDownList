@@ -19,5 +19,5 @@ describe('My DropdownList Page', () => {
         
         // await expect(SecurePage.flashAlert).toHaveTextContaining(
         //     'You logged into a secure area!')
-    })
-})
+    });
+});
