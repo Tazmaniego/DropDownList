@@ -16,8 +16,5 @@ describe('My DropdownList Page', () => {
         await browser.pause(1500);
         await (DropdownListPage).DropList.click();
         await browser.pause(3000);
-        
-        // await expect(SecurePage.flashAlert).toHaveTextContaining(
-        //     'You logged into a secure area!')
     });
 });
